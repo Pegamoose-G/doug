@@ -1,0 +1,183 @@
+h1 {
+    /* border: solid red 5px;
+    border: blue dashed 5px; */
+    border: green ridge 5px;
+}
+
+.cat {
+    background-color: black;
+    color: lightgreen;
+}
+
+#dog {
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#mouse {
+    color: yellow;
+    width: 200px;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bird {
+    width: 50vw;
+    text-align: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+#horse {
+    color: orange;
+    padding: 100px 0px 0px 100px;
+} 
+
+#computer {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+#compdiv {
+    border: solid green 3px;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+}
+
+p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.changefont {
+    color: darkblue;
+}
+
+#p3 {
+    color: red;
+}
+
+p.changefont {
+    color: green;
+}
+
+h2 {
+    font-size: 36px;
+    border: green solid 3px;
+
+}
+
+#stooge1 {
+    background-color: blue;
+    width: 250px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: left;
+}
+
+#stooge2 {
+    background-color: yellow;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+#stooge3 {
+    background-color: red;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.headpic{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+/* (Task 1 - Q 6) 
+The page displayes a page of white with a black bar 
+around white text reading, "It is raining cats and dogs!" 
+There is a red border around the black bar. */
+
+/* (Task 2 - Q 3)
+Below the original, there is only a black rectangle surrounded by a red border.
+The text is there (visible when highlighted), but blends in with the black background.
+This is because the default text color is black and unchanged by a class or ID style. */
+
+/* (Task 3 - Q 2)
+A third bar appears below the others.
+It is a black rectangle surrounded by a dashed, blue line.
+The text is hidden (unless highlighted) for the same reason as stated above:  black is the default color presented on a black background.*/
+
+/* (Task 4 - Q 5)
+The second block of text remains the same size, no matter how the windows changes.
+The other two are roughly 25% and 50% of the displayed area. 
+The first block is based on 25% of the container it is in (body),
+but the third block is based on the entire window (app) display area.
+It depends on where the element resides on the page.
+I changed the body to a wdith of 50%, and the first block shrunk, while the third block stayed true to the window size.*/
+
+/* (Task 6 - Q 6)
+At first, I used values of 50% to center the elements. The first one was positioned in the middle of the viewable area, while the others were pushed much further down. The third element ended up looking aligned on the right, instead of centered. I switched both "50%" values to "auto", and they positioned vertically centered. 
+*/
+
+/* (Task 7)
+My third element is slightly different, because there is an instruction to provide a right padding, but the example does not have the right padding. */
+
+/* (Task 8 - Q 3) 
+The picture is too big to fit the window. It has dimensions larger than the window size.*/
+
+/* (Task 8 - Q 6)
+img is an inline element and will only take up the width it needs. Centering on a fully used space won't change the result.
+*/
+
+/* (Task 8 - Q 9)
+The green border is around the image, stretching to the edge of the page, but it only almost as tall as the image.
+*/
+
+/* {Task 8 - Q 11)
+The div size shrinks to 25% of the page width, and the image shrinks to 50% of the div's size.
+*/
+
+/* (Task 8 - Q 13)
+The 25% page width is the same, but the image is its original size. */
+
+/* (Task 8 - Q15)
+Yes. The image is the same width as the div. Both resize to adjust to the page size. */
+
+/* (Task 8 - Q16)
+I would guess that the height is not set to 100%. Or, by default, the image is provided a bottom padding of so many pixels. */
+
+/* (Task 11 - Q8)
+The other elements are still associated with the general p-element style, because they are not specifically mentioned by class or ID styles.
+*/
+
+/* (Task 11 - Q10)
+No change. The new style has a lower specificity value than the class or ID specificity values.
+*/
+
+/* (Task 11 - Q12)
+The third element is associated with a style specific to the ID, which has a higher value than the element-class value.
+*/
