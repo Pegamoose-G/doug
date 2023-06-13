@@ -1,0 +1,144 @@
+body {
+    font-family: Mansalva;
+    font-size: medium;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 10px;
+}
+
+#box1 {
+    position: fixed;
+    width: 60vw;
+    height: 70vh;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    border-top: 7px solid black;
+    border-left: 7px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#box2 {
+    position: fixed;
+    width: 35vw;
+    height: 30vh;
+    bottom: 0vh;
+    left: 65vw;
+    background-color: yellow;
+    border-top: 4px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 7px solid black;
+    z-index: 2;
+}
+
+#box3 {
+    position: fixed;
+    width: 30vw;
+    height: 30vh;
+    bottom: 0px;
+    left: 0px;
+    background-color: green;
+    border-top: 3px solid black;
+    border-left: 7px solid black;
+    border-right: 3px solid black;
+    border-bottom: 7px solid black;
+    z-index: 2;
+}
+
+#box4 {
+    position: fixed;
+    width: 40vw;
+    height: 15vh;
+    top: 0px;
+    left: 60vw;
+    background-color: white;
+    border-top: 7px solid black;
+    border-left: 3px solid black;
+    border-right: 7px solid black;
+    border-bottom: 3px solid black;
+}
+
+#box5 {
+    position: fixed;
+    width: 15vw;
+    height: 30vh;
+    bottom: 0px;
+    left: 30vw;
+    background-color: white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 7px solid black;
+    z-index: 2;
+}
+#box6 {
+    position: fixed;
+    width: 20vw;
+    height: 30vh;
+    bottom: 0px;
+    left: 45vw;
+    background-color: white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 7px solid black;
+}
+
+#box7 {
+    position: fixed;
+    width: 40vw;
+    height: 15vh;
+    top: 15vh;
+    left: 60vw;
+    background-color: white;
+    border: 5px solid black;
+    z-index: 1;
+}
+
+#box8 {
+    position: fixed;
+    width: 30vw;
+    height: 40vh;
+    top: 31vh;
+    left: 70vw;
+    background-color: white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 10px solid black;
+    border-bottom: 3px solid black;
+}
+
+#box9 {
+    position: fixed;
+    width: 10vw;
+    height: 40vh;
+    top: 30vh;
+    left: 60vw;
+    background-color: blue;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    z-index: -1;
+}
+
+#name {
+    position: fixed;
+    width: 10vw;
+    height: 20vh;
+    bottom: 20vh;
+    left: 10vw;
+    color: white;
+
+    border-radius: 100%;
+    background-color: black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
