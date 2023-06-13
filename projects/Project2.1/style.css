@@ -1,0 +1,23 @@
+#logo {
+    float: left;
+}
+
+#logon {
+    float: right;
+}
+
+.img {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+#main {
+    align-items: center;
+}
+
+.blackbart {
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+}
