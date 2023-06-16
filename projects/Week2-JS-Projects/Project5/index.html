@@ -1,0 +1,100 @@
+<!-- Project 5 - Image Gallery (Javascript) -->
+<!-- This page layout was reused from Project2.2 with a few tweaks. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c604a5110.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <span>The Desserts</span>
+            <i class="fa-solid fa-utensils"></i>
+        </div>
+        <div class="dropdown">
+            <span>Trending</span>
+            <div class="dropmenu">
+                <a href="#">Entertainment</a>
+                <a href="#">Travel</a>
+                <a href="#">Education</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Tech</span>
+            <div class="dropmenu">
+                <a href="#">Latest</a>
+                <a href="#">Programming</a>
+                <a href="#">App Reviews</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Politics</span>
+            <div class="dropmenu">
+                <a href="#">Headlines</a>
+                <a href="#">The Facts</a>
+                <a href="#">The Gossip</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>About</span>
+            <div class="dropmenu">
+                <a href="#">Our Story</a>
+                <a href="#">Donate</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <span>FAQ</span>
+            <div class="dropmenu">
+                <a href="#">Our Policy</a>
+                <a href="#">Careers</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Contact</span>
+            <div class="dropmenu">
+                <a href="#">Email</a>
+                <a href="#">Phone</a>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="title">Image Gallery of your favorite treats</div>
+        
+        <input id="picnum" type="hidden" value="0">
+        <div class="container">
+            <div class="row">
+                <img id="dessertcart" class="yummy" src="./img/1.jpg"></img>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <button class="btn btn-outline-light" onclick="changePic('prev')">Prev</button>
+                    <button class="btn btn-outline-light" onclick="changePic('next')">Next</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 dessertfoot">
+                    <h2>The Desserts</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>Trending</h3>
+        <h3>Tech</h3>
+        <h3>Politics</h3>
+        <h3>About</h3>
+        <h3>FAQ</h3>
+        <h3>Contact</h3>
+        <h4>The News &copy; 2023</h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
