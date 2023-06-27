@@ -1,0 +1,15 @@
+/* Task 3 - Step 2 : Add coloring to the nested elements  */
+div {
+    background-color: red;
+    color: ghostwhite;
+}
+
+p {
+    background-color: yellow;
+    color: green;
+}
+
+span {
+    background-color: blue;
+    color: ghostwhite;
+}
